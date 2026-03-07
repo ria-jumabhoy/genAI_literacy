@@ -27,6 +27,13 @@ strong {
   font-weight: 700;
 }
 
-.quarto-sidebar-toggle {
-  display: block !important;
+@media (max-width: 991px) {
+  .quarto-sidebar-toggle-btn {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  #quarto-sidebar {
+    display: block !important;
+  }
 }
