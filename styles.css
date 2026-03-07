@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.nav-link.active, .nav-link:hover, #TOC a, #TOC a:hover {
+  color: #ffffff !important;
+}
+.callout-note {
+  border-left-color: #7c6b9e !important;
+}
+
+.callout-note .callout-header {
+  background-color: #5c5470 !important;
+}
+
+.sidebar-item-text, .toc-active {
+  color: #ffffff !important;
+}
+
+a {
+  color: #7c6b9e !important;
+}
+
+strong {
+  color: #ffffff !important;
+  font-weight: 700;
+}
