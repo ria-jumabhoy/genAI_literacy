@@ -28,12 +28,9 @@ strong {
 }
 
 @media (max-width: 991px) {
-  .quarto-sidebar-toggle-btn {
-    display: block !important;
-    visibility: visible !important;
-  }
-  
-  #quarto-sidebar {
-    display: block !important;
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 }
