@@ -26,3 +26,7 @@ strong {
   color: #ffffff !important;
   font-weight: 700;
 }
+
+.quarto-sidebar-toggle {
+  display: block !important;
+}
