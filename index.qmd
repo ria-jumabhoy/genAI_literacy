@@ -193,17 +193,15 @@ GenAI tools often have knowledge cut-off dates. Once a tool is pre-trained, it e
 While I am constantly cautioning you about relying on GenAI for information, you should be even more cautious if you're asking about newer concepts, information, or theory. This also links back to limited access to literature. Relying on what the model was trained on means you're probably going to miss recent developments in the areas you're interested in learning about.
 
 ::: {.callout-tip collapse="false"}
-## The importance of BLUNTs.
+## Think about BLUNTs.
 
-Remember the acronym: 'BLUNT'.
+(Remember the acronym: 'BLUNT'.)
 
 -   B: Biases.
 -   L: Limited access.
 -   U: Unreliable datasets.
 -   N: Not current.
 -   T: Tendency to confabulate.
-
-(Just so we're clear, I mean the tool can be blunt.)
 :::
 
 ::: {.callout-note collapse="false"}
