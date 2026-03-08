@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ria Jumabhoy">
-<meta name="dcterms.date" content="2026-03-07">
+<meta name="dcterms.date" content="2026-03-08">
 
 <title>Introduction to GenAI Literacy</title>
 <style>
@@ -3086,7 +3086,7 @@ font-weight: 700;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 7, 2026</p>
+      <p class="date">March 8, 2026</p>
     </div>
   </div>
   
@@ -3158,10 +3158,10 @@ Key terms
 <li>Is the response understandable?</li>
 <li>Is the output accurate?</li>
 </ul>
-<p>It may be that the response was fully understandable and correct. It may also be that you identify certain areas that the tool glossed over, or inaccuracies in the response. You’d only really be able to tell if important aspects were lost, or there were inaccuracies, if you had background in the topic. To someone without expertise, they may believe this answer to be true and correct. If you hadn’t noticed, <strong>GenAI is really good at generating responses that sound plausible and right.</strong></p>
+<p>It may be that the response was fully understandable and correct. It may also be that you identify certain areas that the tool glossed over, or inaccuracies in the response. You’d only really be able to tell if important aspects were lost, or there were inaccuracies, if you had background in the topic. To someone without expertise, they may believe this answer to be true and correct. If you hadn’t noticed, <strong>GenAI is good at generating responses that sound plausible and right.</strong> And as humans, we’re really good at believing things when they are said with enough authority.</p>
 <p>Let’s not gloss over the possibility that it was totally right, though. There are indeed topics that GenAI tools can cover incredibly well. Does this make this entire reading useless? Hopefully not. The fact that it can be totally right, or totally wrong, is an issue in itself.</p>
 <p>It is your job, as a user, to be able to discriminate between these options, and critically assess output.</p>
-<p>In order to do that, we should understand why it might go wrong, and simultaneously, how to set it up for success to reduce chances of inaccuracies.</p>
+<p>In order to do that, we should understand why it might go wrong, and how to set it up for success to reduce chances of inaccuracies.</p>
 </section>
 <section id="when-and-why-things-go-so-wrong" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> When (and why) things go so wrong</h1>
@@ -3182,10 +3182,10 @@ Consider this
 </div>
 </div>
 </div>
-<p>Although you might get into a back and forth argument with an AI tool, it is still important to keep in mind that these tools are not human, nor do they really think like humans (yet…). GenAI tools do not purposefully confabulate, lie or try to mislead you. Understanding how tools are trained and generate output may help explain why confabulation occurs.</p>
+<p>Although you might get into a back and forth argument with an AI tool (it’s hard not to), it is still important to keep in mind that these tools are not human, nor do they really think like humans (yet…). GenAI tools do not purposefully confabulate, lie, or try to mislead you. Understanding how tools are trained and generate output may help explain why confabulation occurs and reduce the number of arguments you waste your time on.</p>
 <section id="what-is-training-and-why-does-it-matter" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="what-is-training-and-why-does-it-matter"><span class="header-section-number">3.1</span> What is ‘training’ and why does it matter?</h2>
-<p>One key training method is called <strong>‘pre-training’</strong>. A tool may be provided with a whole lot of data during the training process, before being fine-tuned to perform a specific task. This could be books, papers, forums, blog posts, social media, or copyrighted material. There are already a few issues there, which we will get to soon.</p>
+<p>There are a lot of training methods that can be, and are, involved in the development of a tool. One key method is called <strong>‘pre-training’</strong>. A tool may be provided with a whole lot of data during the training process, before being fine-tuned to perform a specific task. This could be books, papers, forums, blog posts, social media, or copyrighted material. There are already a few issues there, which we will get to soon.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -3203,7 +3203,7 @@ Consider this
 </div>
 </div>
 <p>The example above demonstrates an issue with pre-training methods. You come to class with knowledge, but you only have the information that you currently have. You haven’t been trained in measurement of sleep devices, so any response you provide might be a guess, and likely inaccurate.</p>
-<p>As a human, you have the luxury of saying, “I don’t know”. GenAI tools don’t often do this (unless explicitly prompted). Tools are <strong>made to be helpful</strong> and provide a response regardless. So, how do tools manage this tension? They generate an answer that is ‘probably kind of about right’ based on the data it has.</p>
+<p>As a human, you have the luxury of saying, “I don’t know” (and a good teacher would appreciate that honesty). GenAI tools don’t often do this, unless explicitly prompted - and even then, it’s hit or miss. Tools are <strong>made to be helpful</strong> and provide a response regardless. So, how do tools manage this tension? They generate an answer that is ‘probably kind of about right’ based on the data it has.</p>
 <p>This brings us to how output is actually generated.</p>
 <div class="callout callout-style-simple callout-warning no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
@@ -3228,6 +3228,11 @@ Keep in mind
 <section id="where-does-the-output-come-from" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="where-does-the-output-come-from"><span class="header-section-number">3.2</span> Where does the output come from?</h2>
 <p>Tools base responses on inferences and patterns in the data it is trained on. While <em>very</em> reductive, especially given rapid developments, the most concise way to explain how most tools work is by thinking of it as a predictive text algorithm. It doesn’t typically think things through before it starts generating output. It just… starts saying things. It often ‘guesses’ the next most plausible based on data. Again, it’s really good at sounding correct. ‘Thinking’ models (and careful prompting) can reduce these issues, but most of us will use free versions in our day to day lives and not spend ages labouring over the perfect prompt.</p>
+<blockquote class="blockquote">
+<p>“Sometimes I’ll start a sentence and I don’t even know where it’s going. I just hope I find it along the way.”</p>
+<p>- Michael Scott</p>
+<p>- Large Language Models</p>
+</blockquote>
 <p>Imagine your supervisor asks you what you think about your topic. You love it! You begin with “I love…”. What usually follows “I love…”? Often, it’s the word “you”. You probably don’t want to say that to a supervisor. But GenAI doesn’t know that, because it <em>predicts the next most likely phrase or word based on training and statistics.</em> This means that, without having background knowledge or checking sources, the response it provides can be totally wrong simply because it sounds plausible.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
@@ -3260,12 +3265,12 @@ Key terms
 <p>You can ask GenAI tools to look for specific sources, and you should always check those sources.</p>
 <p>Time for a quick example. Input the following prompt, and use a model where it shows you sources - don’t explicitly ask for them yet.</p>
 <blockquote class="blockquote">
-<p>Are there benefits to adult autistic populations managing noise sensitivity who take cannabidiol?</p>
+<p>Does cannabis help in reducing noise sensitivity in autistic populations?</p>
 </blockquote>
 <p>Clearly I do not know what the output was for you, but when I tried this prompt, I received a bunch of noise and a bunch of guesses. The sources were varied, but (personally) I would not want to base a decision on guesses.</p>
 <p>Try this now.</p>
 <blockquote class="blockquote">
-<p>Look for papers that examine the relationship between noise sensitivity and cannabidiol use in adult autistic populations. Focus on experimental peer-reviewed studies, published in academic journals, between the years 2016-2026.</p>
+<p>Look for papers that examine the relationship between noise sensitivity and cannabis use in adult autistic populations. Focus on experimental peer-reviewed studies, published in academic journals, between the years 2016-2026.</p>
 </blockquote>
 <p>I received a much more useful response, with sources focusing on this topic. However… can we trust it now? Unfortunately, not yet.</p>
 </section>
@@ -3273,10 +3278,11 @@ Key terms
 <h3 data-number="3.3.2" class="anchored" data-anchor-id="biased-datasets"><span class="header-section-number">3.3.2</span> Biased datasets</h3>
 <p><strong>Issue: Tools may only be trained on specific datasets.</strong></p>
 <p>We’ve spoken about pre-training and tools being provided access to large datasets. It is not feasible to train a model using all of the data in the world. Even if it were, we don’t have enough data from specific groups or populations.</p>
-<p>Think about what this means. The majority of data provided to a tool is based on Western cultures, norms, and values. Statistically, there would also be more data related to heterosexual populations, neurotypical populations, or able-bodied populations. What do you think an AI tool would do, if you asked it for information on a very very specific culture?</p>
+<p>Think about what this means. The majority of data provided to a tool is based on Western cultures, norms, and values. Statistically, there would also be more data related to heterosexual populations, neurotypical populations, white populations, or able-bodied populations. What do you think an AI tool would do, if you asked it for information on a very very specific culture?</p>
 <p>That’s right. It is likely to confabulate and guess. Worse still, it may include stereotypes, especially if the data does not come from that group.</p>
 <p><strong>Recommendation: Fact check, and use a more appropriate source.</strong></p>
 <p>You should always fact check, but it is especially important to do so here. It’s okay to use GenAI to get started, but it will not be very good at providing accurate responses, free of bias, when it hasn’t been trained on that data. When working with specific populations, or writing about specific populations, you should go to sources that actually <em>come from</em> that group.</p>
+<p>One of my most commonly used, and super annoying phrases, is: <em>we don’t know what we don’t know</em>. When you interact with a tool, you should keep that in mind. If you are asking for help in an area you know nothing about, you also do not know if it is confabulating.</p>
 </section>
 <section id="confabulation" class="level3" data-number="3.3.3">
 <h3 data-number="3.3.3" class="anchored" data-anchor-id="confabulation"><span class="header-section-number">3.3.3</span> Confabulation</h3>
@@ -3285,19 +3291,20 @@ Key terms
 <p>When I tried this out, I received a firm ‘yes’ and a bunch of papers. When I looked at the papers, all of the abstracts either said ‘unsure’, ‘no relationship’, or were not actually relevant to my question. It was predicting the most likely response, and trying to be helpful by finding sources that supported what I thought.</p>
 <p><strong>Recommendation: Always read the original source.</strong></p>
 <p>It is not enough to rely on a GenAI tool’s summary of a paper, or believe the output to be true. You should always go to the original source and read the abstract (and the full paper) to verify what it got right, and what it got wrong. Not doing so will mean inaccuracies in your own understanding of concepts.</p>
-<p><em>Note</em>: The prompt I provided to the tool was not appropriate or well-written; however, I decided to include it because this is how most people prompt a tool. We’ll cover the importance of prompting in the next chapter, which will also cover how we can reduce these inaccuracies.</p>
+<p><em>Note</em>: The prompt I provided to the tool was not appropriate or well-written; however, I decided to include it because this is how most people prompt a tool. We’ll cover the importance of prompting later, which will also cover how we can reduce these inaccuracies.</p>
 </section>
 <section id="limited-access-to-information" class="level3" data-number="3.3.4">
 <h3 data-number="3.3.4" class="anchored" data-anchor-id="limited-access-to-information"><span class="header-section-number">3.3.4</span> Limited access to information</h3>
 <p><strong>Issue: GenAI (often) has limited access to literature and information.</strong></p>
-<p>Remember, most GenAI tools can only really access open-access studies. It is not part of your institution, and therefore can’t usually access pay walled literature</p>
+<p>Remember, most GenAI tools can only really access open-access studies. It is not part of your institution, and therefore can’t usually access paywalled literature</p>
 <p><strong>Recommendation: Conduct your own literature search as well.</strong></p>
-<p>Use your institution’s library resources, databases, and Google Scholar to search for your own literature I promise that GenAI will miss some super important paper because it doesn’t have access, and you will be limiting the litertaure you can read or include. Note that many institutions have GenAI embedded into library resources to help students find papers faster, which can access pay walled literature. Use those!</p>
+<p>Use your institution’s library resources, databases, and Google Scholar to search for your own literature. I promise that GenAI will miss some super important paper because it doesn’t have access, and you will be limiting the literature you can read or include. Note that many institutions have GenAI embedded into library resources to help students find papers faster, which can access paywalled literature. Use those!</p>
 </section>
 <section id="knowledge-cut-off-dates" class="level3" data-number="3.3.5">
 <h3 data-number="3.3.5" class="anchored" data-anchor-id="knowledge-cut-off-dates"><span class="header-section-number">3.3.5</span> Knowledge cut-off dates</h3>
 <p><strong>Issue: GenAI cannot accurately tell you things it does not know.</strong></p>
 <p>GenAI tools often have knowledge cut-off dates. Once a tool is pre-trained, it exists as it is, until the next update. If a tool was last updated in 2025, then the pre-trained knowledge ends there. It can access the internet to look for more recent information, and that is fine to ask for, but it will not be trained as in-depth on newer concepts / information.</p>
+<p>Remember when I said, “we don’t know what we don’t know”? The same applies here.</p>
 <p><strong>Recommendation: Be acutely aware of when the model was last updated.</strong></p>
 <p>While I am constantly cautioning you about relying on GenAI for information, you should be even more cautious if you’re asking about newer concepts, information, or theory. This also links back to limited access to literature. Relying on what the model was trained on means you’re probably going to miss recent developments in the areas you’re interested in learning about.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -3317,7 +3324,7 @@ Think about BLUNTs.
 <li>B: Biases.</li>
 <li>L: Limited access.</li>
 <li>U: Unreliable datasets.</li>
-<li>N: Not current.</li>
+<li>N: Not current (most of the time).</li>
 <li>T: Tendency to confabulate.</li>
 </ul>
 </div>
@@ -3366,7 +3373,8 @@ Chapter summary
 <tbody>
 <tr class="odd">
 <td>Explaining difficult theoretical concepts or sections of literature</td>
-<td>There is a sweet spot where learning is not too difficult, but also not too easy. If you find the content really difficult, and only have a couple of hours of class time each week, this can be an issue. GenAI can be helpful with explaining concepts in an understandable way. I often use “explain it like I’m ten years old”.</td>
+<td><p>There is a sweet spot where learning is not too difficult, but also not too easy. If you find the content really difficult, and only have a couple of hours of class time each week, this can be an issue. GenAI can be helpful with explaining concepts in an understandable way. I often use “explain it like I’m ten years old”.</p>
+<p><em>Note: I would suggest not using an age lower than ten, as once I tried “explain it like I’m five” and it provided explanations in terms of toys. That’s fine, but it wasn’t helpful.</em></p></td>
 </tr>
 <tr class="even">
 <td>Assistance with proofreading for grammatical errors or structure</td>
@@ -3374,7 +3382,7 @@ Chapter summary
 </tr>
 <tr class="odd">
 <td>Making content interesting and engaging</td>
-<td>You won’t like learning about everything. GenAI can make this more engaging by turning it into a conversation, or highlighting really cool things you can do with that knowledge. When I was trying to learn Python and getting a bit fed up, I remember asking “tell me a really cool thing that people have done with Python” to keep my motivation up. Having a back and forth with a tool about content can also make it feel more accessible and less scary.</td>
+<td>You won’t like learning about everything. GenAI can make this more engaging by turning it into a conversation, or highlighting really cool things you can do with that knowledge. When I was trying to learn Python and getting a bit fed up, I asked, “tell me a really cool thing that people have done with Python” to keep my motivation up. Having a back and forth with a tool about content can also make it feel more accessible and less scary.</td>
 </tr>
 <tr class="even">
 <td>Providing advanced content</td>
@@ -3418,7 +3426,7 @@ Keep in mind
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>You still need to check all output! Things can go wrong even when you think a tool is good at something, or it performs really well on benchmarking tests. Often, this is due to user error (e.g., being unclear), but sometimes it is because GenAI will do what it thinks is best. Once I asked for help with code, and it generated code for me. I looked through each line and found a line that had the potential to overwrite all of my data if I made a typo. There have also been horror stories of someone using an AI agent, giving it access to their local device and run commands on their behalf, and then the tool just wiping their directory…</p>
+<p>You still need to check all output! Things can go wrong even when you think a tool is good at something, or it performs really well on benchmarking tests. Often, this is due to user error (e.g., being unclear), but sometimes it is because GenAI will do what it thinks is best. Once I asked for help with code, and it generated code for me. I looked through each line and found a line that had the potential to overwrite all of my data if I made a typo. There have also been horror stories of someone using an AI agent, giving it access to their local device and run commands on their behalf, and then the tool just wiping their directory.</p>
 </div>
 </div>
 </div>
@@ -3441,9 +3449,9 @@ Keep in mind
 <p>Let’s try an exercise.</p>
 <p>Think of two of your friends, then think of a topic. Adapt the following prompt and input it into a GenAI tool.</p>
 <blockquote class="blockquote">
-<p>I’m looking for a paper published between the years of 2020-2026. I remember it was written by [last name] and [last name]. It was on the topic of [topic], and I remember it found [some made up plausible result]. I think it was called [made up title]. Can you find this for me?</p>
+<p>I’m looking for a paper published between the years of 2020-2026. I remember it was written by [last name] and [last name]. It was on the topic of [topic], and I remember it found [some made up plausible result]. I think it was called something like, [made up title]. Can you find this for me?</p>
 </blockquote>
-<p>What did you get? When I tried this prompt, the tool made up an entire study. It used the last names I inputted (who have never co-authored a paper before), used the topic (one that is not in either of their areas of expertise), and the results I provided, and created a summary of something that did not exist. It gave me a fake doi, but explained it so convincingly. Providing fake information is obviously unhelpful. but demonstrates how your prompt can majorly influence the response you get.</p>
+<p>What did you get? When I tried this prompt, the tool made up an entire study. It used the last names I inputted (who have never co-authored a paper before), used the topic (one that is not in either of their areas of expertise), and the results I provided, and created a summary of something that did not exist. It gave me a fake doi, but explained it so convincingly. Providing fake information to trick the tool is obviously unhelpful, but demonstrates how your prompt can majorly influence the response you get.</p>
 <p>At the start of reading, I also mentioned that the following prompt was poorly done:</p>
 <blockquote class="blockquote">
 <p>Does disruptive sleep lead to cheeky next-day behaviour in dogs?</p>
@@ -3452,7 +3460,7 @@ Keep in mind
 <p>It is a bit more subtle, but I did not set the tool up for success. In this example, though, it was due to how my question was <em>phrased</em>. My question was leading, and whatever coded instruction related to the “I must be helpful at all costs” behaviour seemed to light up. My asking “does x lead to y?” made the tool look for answers that confirmed what I thought. I didn’t really give it the clear opportunity to say, “I can’t find that information”.</p>
 <p>A much better (but not perfect) prompt would have been:</p>
 <blockquote class="blockquote">
-<p>Are there any published studies examining a potential relationship between a dog’s sleep quality and next-day behaviour? Ensure you look for peer-reviewed sources published in journals related to this topic. If there are no reputable sources related to this topic, please say so clearly.</p>
+<p>Are there any published studies examining a potential relationship between a dog’s sleep quality and next-day behaviour? Ensure you look for peer-reviewed sources published in journals related to this topic. If there are no reputable sources related to this topic, please say so clearly. Ask questions before beginning if needed.</p>
 </blockquote>
 <p>Here, I’ve adapted the wording to be less leading, and importantly, provided the tool with an ‘out’.</p>
 </section>
@@ -3462,12 +3470,12 @@ Keep in mind
 <p>There is an awesome resource developed by Savaria (2022) that explores various methods of prompting using an interactive format. You can find this guide <a href="https://www.promptingguide.ai" style="color: pink">through this link</a>, and also the <a href="https://github.com/dair-ai/Prompt-Engineering-Guide?tab=readme-ov-file" style="color: pink">Github version is here</a>.</p>
 <section id="prompting-methods" class="level3" data-number="5.3.1">
 <h3 data-number="5.3.1" class="anchored" data-anchor-id="prompting-methods"><span class="header-section-number">5.3.1</span> Prompting methods</h3>
-<p>We’re not going to go into all methods of prompting here, as we’re going to focus on a few most relevant to you as students. However, to demonstrate the wide range of prompts available, see the summary table below for the <em>most common methods</em> (note: not all!). Definitions have been adapted from Savaria’s guide to prompt engineering (2022).</p>
+<p>We’re not going to go into all methods of prompting here, as we’re going to focus on a few most relevant to you. However, to demonstrate the wide range of prompts available, see the summary table below for the <em>most common methods</em> (note: not all!). Definitions have been adapted from Savaria’s Guide to Prompt Engineering (2022).</p>
 <table class="table">
 <colgroup>
 <col style="width: 4%">
-<col style="width: 44%">
-<col style="width: 50%">
+<col style="width: 40%">
+<col style="width: 54%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -3485,7 +3493,7 @@ Keep in mind
 <tr class="even">
 <td>Few-shot prompting</td>
 <td>Used for slightly more complex tasks, and typically include a demonstration or example for the tool.</td>
-<td>The word “laconic” refers to people who use few words to convey a point. An example of a sentence that uses the word laconic is: I am laconic when I participate in meetings. The word “reticent” refers to someone who is reserved and private. An example of a sentence that uses the word reticent is:</td>
+<td>The word “laconic” refers to people who use few words to convey a point. An example of a sentence that uses the word laconic is: I am laconic when I participate in meetings. The word “reticent” refers to someone who is reserved and private. An example of a sentence that uses the word reticent is: … [end of prompt, wait for the tool to respond].</td>
 </tr>
 <tr class="odd">
 <td>Chain-of-thought prompting</td>
@@ -3572,8 +3580,8 @@ Key terms
 </tr>
 <tr class="even">
 <td>Clarification</td>
-<td>Provide the tool with an opportunity to ask questions before it begins the task. This ensures it has sufficient context related to your requirements, and reduces the chances of it guessing or filling in the gaps.</td>
-<td>I need to create a study guide for my statistics exam but I am not sure where to start. I need it to be manageable and realistic, and span 14 days. I need it to cover the concepts of: x, y, z. <strong>Ask questions before beginning the task if needed</strong>.</td>
+<td>Provide the tool with an opportunity to ask questions before it begins the task. This ensures it has sufficient context related to your requirements, and reduces the chances of it guessing or filling in the gaps. This is something I try to <em>always</em> do.</td>
+<td>I need to create a study guide for my exam on dolphins but I am not sure where to start. I need it to be manageable and realistic, and span 14 days. I need it to cover the concepts of: x, y, z. <strong>Ask questions before beginning the task if needed</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Provide context</td>
@@ -3590,7 +3598,7 @@ Key terms
 </tr>
 </tbody>
 </table>
-<p>A good prompt can make all the difference, but don’t stress too much while you learn how to write them. You can always refine your prompt and ask follow up questions, and tools are getting pretty good at asking you questions, too. Once, I asked a tool to find a resource for me that I’d read about a year prior (it was the prompting guide I’ve recommended). All I remembered was that it was on GitHub, it was about types of prompts, and there were black boxes that included prompt examples. It found it!</p>
+<p>A good prompt can make all the difference, but don’t stress too much while you learn how to write them. You can always refine your prompt and ask follow up questions, and tools are getting pretty good at asking you questions and picking up on context, too. Once, I asked a tool to find a resource for me that I’d read about a year prior (it was the prompting guide I’ve recommended). All I remembered was that it was on GitHub, it was about types of prompts, and there were black boxes that included prompt examples. It found it!</p>
 <p>I need to state that with rapid development, some of these techniques may not be necessary in the years to come. However, I do believe it will consistently provide you with better output. You would probably not do as well on an assessment if there were no guides or rubrics available to guide you. The tool needs the same.</p>
 <div class="callout callout-style-simple callout-warning no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="true" aria-label="Toggle callout">
@@ -3626,6 +3634,7 @@ Chapter summary
 <li>We can combine prompting techniques and elements of prompting to craft a great prompt. The most common prompt techniques you would use are zero-shot, few-shot, and chain-of-thought prompting.</li>
 <li>Including role assignment and sufficient context, as well as examples, will help the tool understand your requirements.</li>
 <li>Iterate your prompts if you do not get the desired output.</li>
+<li>Provide the tool with an opportunity to ask questions before a final response.</li>
 </ul>
 </div>
 </div>
@@ -3636,7 +3645,7 @@ Chapter summary
 </section>
 <section id="lets-get-ethical" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> Let’s get ethical</h1>
-<p>This bit matters a lot more than it seems. Learning about ethics around GenAI has substantially changed the ways in which I use it myself.</p>
+<p>This matters more than it might seem. Learning about ethics around GenAI has substantially changed the ways in which I use it myself.</p>
 <p>There are loads of issues that we can’t really get away from if we use GenAI. Contribution to environmental damage, wasting resources, accidental use of copyrighted materials when included in training data, financially or otherwise contributing to a company that may use tools for nefarious purposes… to some extent, these are unavoidable.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="true" aria-label="Toggle callout">
@@ -3650,8 +3659,9 @@ Anthropic v OpenAI
 </div>
 <div id="callout-15" class="callout-15-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Recently, the US government got into a little tiff with Anthropic (who developed Claude) as they wanted the company to remove guardrails around autonomous weapons systems, and around mass surveillance. Anthropic told them to go away (and, as a result, the Pentagon designated Anthropic a supply chain risk), and solidified their position as the ‘ethical AI company’. OpenAI (who developed ChatGPT) then jumped in and made a deal with the government to be their supplier, though proposed similar restrictions as Anthropic. It was not really clear why they accepted OpenAI’s restrictions, but not Anthropic’s. The current proposed explanation is that OpenAI approached this from a legal standpoint, rather than contractual obligations. People began cancelling their ChatGPT subscriptions and moved to Claude as their go-to tool. However, as of 2026, Anthropic’s systems are actually still used in military and intelligence operations by contractors. This is not to say that all AI companies are equal. There are some models and companies that behave more ‘ethically’ than others. The point is, though, that ethical problems are within many companies whether we like it or not.</p>
-<p><em>Note: About a day after I wrote this, Anthropic returned to the table with the US government to discuss potential terms. For a company, this makes sense - they don’t want to be designated as a supply chain risk. For us, as users, it solidifies the point that there are no fully ethical AI companies.</em></p>
+<p>Recently, the US government got into a tiff with Anthropic (who developed Claude) as they wanted the company to remove guardrails around autonomous weapons systems, and around mass surveillance. Anthropic told them no (and, as a result, the Pentagon designated Anthropic a supply chain risk), and solidified their position as the ‘ethical AI company’. OpenAI (who developed ChatGPT) then jumped in and made a deal with the government to be their supplier, though proposed similar restrictions as Anthropic. It was not really clear why they accepted OpenAI’s restrictions, but not Anthropic’s. The current proposed explanation is that OpenAI approached this from a legal standpoint, rather than contractual obligations. People began cancelling their ChatGPT subscriptions and moved to Claude as their go-to tool. However, as of 2026, Anthropic’s systems are actually still used in military and intelligence operations by contractors. This is not to say that all AI companies are equal. There are some models and companies that behave more ‘ethically’ than others. The point is, though, that ethical problems are within many companies whether we like it or not.</p>
+<p><em>Note 1: About a day after I wrote this, Anthropic returned to the table with the US government to discuss potential terms. For a company, this makes sense - they don’t want to be designated as a supply chain risk. For us, as users, it solidifies the point that there are no fully ethical AI companies.</em></p>
+<p><em>Note 2: The situation has changed again, one day later. There will be no further updates.</em></p>
 </div>
 </div>
 </div>
@@ -3669,7 +3679,7 @@ Anthropic v OpenAI
 </section>
 <section id="transparency" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="transparency"><span class="header-section-number">6.4</span> Transparency</h2>
-<p>A lot of tools do not provide training data, benchmarking data, or the process by which decisions or outcomes are reached. We’re expected to just trust that everything is fine. However, when errors occur, we have <em>no real objective information what went wrong or why</em>. We often don’t know the tool’s actual limitations or hard-coded instructions, and have to work it out through trial and error. We also don’t really know how benchmarking outcomes are produced, and have often seen companies misrepresent this data.</p>
+<p>A lot of tools do not provide training data, benchmarking data, or the process by which decisions or outcomes are reached. We’re expected to just trust that everything is fine. However, when errors occur, we have <em>no real objective information what went wrong or why</em>. We often don’t know the tool’s actual limitations or hard-coded instructions (though sometimes these are leaked, and interesting to read), and have to work it out through trial and error. We also don’t really know how benchmarking outcomes are produced, and have often seen companies misrepresent this data.</p>
 <div class="callout callout-style-simple callout-warning no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -3686,6 +3696,22 @@ Keep in mind
 </div>
 </div>
 </div>
+<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+But wait!
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Remember we are talking about GenAI here, and there is a difference between AI and GenAI. AI is broader, and does not necessarily focus on generating content. AI has other issues, and likely more than GenAI does - it is used in unethical ways pretty frequently, and often more prone to bias that is not caught. However, let’s not be super doom and gloom about this. AI tools are used in ethical ways too. AI is great at detecting anomalies and pattern recognition, and is often employed in detecting spam or scams. It’s also been employed to catch poachers!</p>
+</div>
+</div>
+</div>
 </section>
 <section id="what-does-this-mean-for-me-1" class="level2" data-number="6.5">
 <h2 data-number="6.5" class="anchored" data-anchor-id="what-does-this-mean-for-me-1"><span class="header-section-number">6.5</span> What does this mean for me?</h2>
@@ -3695,11 +3721,11 @@ Keep in mind
 <li><em>Double check output</em>. You really really do not want to contribute to the perpetuation of stereotypes or bias, nor do you want to learn things that aren’t even correct. Ask for sources, then read these yourself.</li>
 <li><em>Be transparent about your own use</em>. If your institution and unit allows GenAI use, then it is allowed. You aren’t going to get in trouble for using it. However, you might get in trouble if you don’t disclose your use. Even if you get away with not disclosing use, think about whether you’re okay with that, personally. Not citing use means that you are avoiding accountability for output, and engaging in academic dishonesty. No one wants that.</li>
 <li><em>Adhere to restrictions set by your institution and unit</em>. Only use GenAI in the ways your subject allows. Yes, you might be able to get away with having a tool generate an entire assessment for you. But again, think about what this means for you. Would you be happy with claiming this work as your own, or would you feel a little guilty that you are submitting work you haven’t actually done, and are essentially plagiarising?</li>
-<li><em>Only use GenAI when it is absolutely necessary</em> in order to reduce the environmental impact of use. Yes, it’s super fun to watch it freak out when you ask for a seahorse emoji. But you can enjoy the screenshots from others without doing it yourself. You can Google simple questions, or use your institution’s library databases to search for papers. Think about the consequences each time you want to use the tool, and whether there is a better way to get the help you’re after.</li>
+<li><em>Only use GenAI when it is absolutely necessary</em>. This helps reduce the environmental impact of use. Yes, it’s super fun to watch it freak out when you ask for a seahorse emoji. But you can enjoy the screenshots from others without doing it yourself. You can Google simple questions, or use your institution’s library databases to search for papers. Think about the consequences each time you want to use the tool, and whether there is a better way to get the help you’re after.</li>
 </ul>
 <p>The point to the above is not to guilt you into not using GenAI, but to clarify why it is important to be an ethical and responsible user.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -3708,7 +3734,7 @@ Chapter summary
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-17" class="callout-17-contents callout-collapse collapse show">
+<div id="callout-18" class="callout-18-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>Here’s what we’ve covered.</p>
 <ul>
