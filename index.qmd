@@ -17,19 +17,17 @@ editor: visual
 date: today
 ---
 
-Have you identified a typo, error, or major inaccuracy? [Please alert me here](https://github.com/ria-jumabhoy/genAI_literacy/discussions){style="color: purple"}!
-
 ::: {.callout-note collapse="false"}
 ## Overview and Rationale
 
 Artificial intelligence (AI) is embedded in our daily lives, and use of generative AI (GenAI) tools are becoming more commonly used within educational contexts. Part of using GenAI well is understanding how it works, how it generates output, how to critique responses, and how to use it ethically and responsibly. This is called 'AI literacy'. If you interact with AI tools in any context, it is important you develop your knowledge around the tool you use.
 
-This reading will not cover technical aspects of GenAI in depth, all methods of training, or any engineering or computer science related concepts. We will focus on a gentle introduction to the essentials.
+This will not cover technical aspects of GenAI in depth, all methods of training, or any engineering or computer science related concepts. We will focus on a gentle introduction to the essentials.
 :::
 
 # What is GenAI?
 
-Let's first be clear about what GenAI is. GenAI refers to **tools that are designed to generate (or create) new output, in response to human language input**. This includes tools such as ChatGPT, Claude, Copilot, Sora, Dall E, or NotebookLM. GenAI is a type of machine learning, which is when systems learn patterns from data, rather than being explicitly programmed. One subcategory of GenAI are **'large language models'** (LLMs), also called chatbots. LLMs focus on generating text-based output in response to human language input. This is what you would probably usually use on a day-to-day basis. ChatGPT, Claude, and Copilot are all examples of LLMs. Although we will be talking about LLMs in this reading, I will be referring to these as GenAI tools, as the types of output tools can create are rapidly expanding.
+Let's first be clear about what GenAI is. GenAI refers to **tools that are designed to generate (or create) new output, in response to human language input**. This includes tools such as ChatGPT, Claude, Copilot, Sora, Dall E, or NotebookLM. GenAI is a type of machine learning, which is when systems learn patterns from data, rather than being explicitly programmed. One subcategory of GenAI are **'large language models'** (LLMs), also called chatbots. LLMs focus on generating text-based output in response to human language input. This is what you would probably usually use on a day-to-day basis. ChatGPT, Claude, and Copilot are all examples of LLMs. Although we will be talking about LLMs, I will be referring to these as GenAI tools, as the types of output tools can create are rapidly expanding.
 
 Keep the following terms in mind.
 
@@ -55,18 +53,18 @@ After the tool provides output, reflect on the following questions:
 -   Is the response understandable?
 -   Is the output accurate?
 
-It is likely that you do not know the answer to the second question (given we purposefully chose a topic you do not know much about). If it provided citations for you - great! ... But we'll get to that later.
+It is likely that you do not know the answer to the second question (given we purposefully chose a topic you do not know much about). If it provided citations for you, that's great! ... But we'll get to potential issues with that later on.
 
-Let's switch to a topic you know a LOT about. Choose a topic that you'd consider your area of expertise - something that requires a lot of knowledge and experience to understand nuances. It doesn't need to be an academic topic - feel free to choose something related to hobbies or other interests. I won't give you an example prompt for this, so feel free to create your own.
+Let's switch to a topic you know a LOT about. Choose a topic that you'd consider your area of expertise - something that requires a lot of knowledge and experience to understand nuances. It doesn't need to be an academic topic - feel free to choose something related to hobbies or other interests. I won't provide an example here, because I'd like you to try creating a prompt yourself (and because I can't think of one). 
 
 Now, reflect on the same questions:
 
 -   Is the response understandable?
 -   Is the output accurate?
 
-It may be that the response was fully understandable and correct. It may also be that you identify certain areas that the tool glossed over, or inaccuracies in the response. You'd only really be able to tell if important aspects were lost, or there were inaccuracies, if you had background in the topic. To someone without expertise, they may believe this answer to be true and correct. If you hadn't noticed, **GenAI is good at generating responses that sound plausible and right.** And as humans, we're really good at believing things when they are said with enough authority.
+It may be that the response was fully understandable and correct. It may also be that you identify certain areas that the tool glossed over, or inaccuracies in the response. You'd only really be able to tell if important aspects were lost, or there were inaccuracies, if you had background in the topic (note: this would also impact the quality of your prompt and therefore output). To someone without expertise, they may believe this answer to be true and correct. If you hadn't noticed, **GenAI is good at generating responses that sound plausible and right.** And as humans, we're really good at believing things when they are said with enough authority.
 
-Let's not gloss over the possibility that it was totally right, though. There are indeed topics that GenAI tools can cover incredibly well. Does this make this entire reading useless? Hopefully not. The fact that it can be totally right, or totally wrong, is an issue in itself.
+Let's not gloss over the possibility that it was totally right, though. There are indeed topics that GenAI tools can cover incredibly well. Does this make this entire thing useless? Hopefully not. The fact that it can be totally right, or totally wrong, is an issue in itself.
 
 It is your job, as a user, to be able to discriminate between these options, and critically assess output.
 
@@ -82,7 +80,7 @@ You have probably noticed people getting frustrated when GenAI is confidently in
 Imagine you are working on a group project. One of your group members sounds like they have a really strong grasp on the topic. They use the correct terminology, impressive words, are super confident about what they are saying, and genuinely believe they are correct. However, when you think about it a little more, or check their sources, their argument falls apart.
 :::
 
-Although you might get into a back and forth argument with an AI tool (it's hard not to), it is still important to keep in mind that these tools are not human, nor do they really think like humans (yet...). GenAI tools do not purposefully confabulate, lie, or try to mislead you. Understanding how tools are trained and generate output may help explain why confabulation occurs and reduce the number of arguments you waste your time on.
+Although you might get into a back and forth argument with an AI tool (it's hard not to), it is still important to keep in mind that these tools are not human, nor do they really think like humans (yet). GenAI tools do not purposefully confabulate, lie, or try to mislead you. Understanding how tools are trained and generate output may help explain why confabulation occurs and reduce the number of arguments you waste your time on. (Also, the number of times I have argued with GenAI and then realised it was correct is really embarrassing.)
 
 ## What is 'training' and why does it matter?
 
@@ -91,7 +89,7 @@ There are a lot of training methods that can be, and are, involved in the develo
 ::: {.callout-tip collapse="false"}
 ## Consider this
 
-You're a fresh university student, and go into your first Psychology lecture of the semester. You do have some knowledge in the area, but it is not particularly advanced. Nevertheless, your lecturer calls on you and asks, "How accurate are commercial sleep measurement devices compared to polysomnography and actigraphy at detecting episodes of wake after sleep onset?". Most of you would not know the answer off the top of your head.
+You're a fresh university student, and go into your first Psychology lecture of the semester. You do have some knowledge in the area, but it is not particularly advanced. However, your lecturer calls on you and asks, "How accurate are commercial sleep measurement devices compared to polysomnography and actigraphy at detecting episodes of wake after sleep onset?". Most of you would not know the answer off the top of your head.
 :::
 
 The example above demonstrates an issue with pre-training methods. You come to class with knowledge, but you only have the information that you currently have. You haven't been trained in measurement of sleep devices, so any response you provide might be a guess, and likely inaccurate.
@@ -109,15 +107,15 @@ This brings us to how output is actually generated.
 
 ## Where does the output come from?
 
-Tools base responses on inferences and patterns in the data it is trained on. While *very* reductive, especially given rapid developments, the most concise way to explain how most tools work is by thinking of it as a predictive text algorithm. It doesn't typically think things through before it starts generating output. It just... starts saying things. It often 'guesses' the next most plausible based on data. Again, it's really good at sounding correct. 'Thinking' models (and careful prompting) can reduce these issues, but most of us will use free versions in our day to day lives and not spend ages labouring over the perfect prompt.
+Tools base responses on inferences and patterns in the data it is trained on. While *very* reductive, especially given rapid developments, the most concise way to explain how most tools work is by thinking of it as a super advanced predictive text algorithm. It doesn't typically think things through before it starts generating output. It just starts saying things. It often 'predicts' the next most plausible word based on data. Again, it's really good at sounding correct. 'Thinking' models (and careful prompting) can reduce these issues, but most of us will use free versions in our day to day lives and not spend ages labouring over the perfect prompt.
 
 > "Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way."
 >
-> \- Michael Scott
+> \- Michael Scott (The Office)
 >
 > \- Large Language Models
 
-Imagine your supervisor asks you what you think about your topic. You love it! You begin with "I love...". What usually follows "I love..."? Often, it's the word "you". You probably don't want to say that to a supervisor. But GenAI doesn't know that, because it *predicts the next most likely phrase or word based on training and statistics.* This means that, without having background knowledge or checking sources, the response it provides can be totally wrong simply because it sounds plausible.
+Imagine your supervisor asks you what you think about your topic. You love it! You begin with "I love...". What usually follows "I love..."? Often, it's the word "you". (You probably don't want to say that to a supervisor, or even if you do, please don't). But GenAI does not quite think this through, because it *predicts the next most likely phrase or word based on training and statistics.* This means that, without having background knowledge or checking sources, the response it provides can be totally wrong simply because it sounds plausible. 
 
 ::: {.callout-note collapse="false"}
 ## Key terms
@@ -160,11 +158,11 @@ We've spoken about pre-training and tools being provided access to large dataset
 
 Think about what this means. The majority of data provided to a tool is based on Western cultures, norms, and values. Statistically, there would also be more data related to heterosexual populations, neurotypical populations, white populations, or able-bodied populations. What do you think an AI tool would do, if you asked it for information on a very very specific culture?
 
-That's right. It is likely to confabulate and guess. Worse still, it may include stereotypes, especially if the data does not come from that group.
+It is likely to confabulate and guess. Worse still, it may include stereotypes, especially if the data does not come from that group.
 
 **Recommendation: Fact check, and use a more appropriate source.**
 
-You should always fact check, but it is especially important to do so here. It's okay to use GenAI to get started, but it will not be very good at providing accurate responses, free of bias, when it hasn't been trained on that data. When working with specific populations, or writing about specific populations, you should go to sources that actually *come from* that group.
+You should always fact check, but it is especially important to do so here. It's okay to use GenAI to get started, but it will not be very good at providing accurate responses, free of bias, when it hasn't been trained on that data (or has been trained on biased data). When working with specific populations, or writing about specific populations, you should go to sources that actually *come from* that group.
 
 One of my most commonly used, and super annoying phrases, is: *we don't know what we don't know*. When you interact with a tool, you should keep that in mind. If you are asking for help in an area you know nothing about, you also do not know if it is confabulating.
 
@@ -226,20 +224,20 @@ Here's what we've covered.
 -   Models are often trained using pre-training methods, and this can lead to inaccuracies, biases, confabulation, or providing out of date information.
 :::
 
-We've covered a lot about how GenAI can go wrong and the issues inherent in these tools. This does not mean that I'm saying you should never ever use GenAI and that if you do, everything will go terribly. Let's explore what it's good at.
+We've covered a lot about how GenAI can go wrong and the issues inherent in these tools. This does not mean that I'm saying you should never ever use GenAI and that if you do, the world will implode. Let's explore what it's good at.
 
 # Where it could actually help
 
-A lot of this has been along the lines of, "if you use GenAI, the world will implode" in tone. That isn't the intention. GenAI can be incredibly helpful when used well. I use it for help with structuring writing, or if I have a super specific question that requires a lot of context. Because I am tired of writing paragraphs and you are tired of reading them, below is a quick table going through how it can be beneficial and why. This isn't comprehensive, but a starting point to get you thinking about what it could be helpful with.
+GenAI can be incredibly helpful when used well. I use it for help with structuring writing, or if I have a super specific question that requires a lot of context (e.g., "whY iS mY ExCel ForMula Not WorKiNg"). Because we are both tired of writing and reading paragraphs of text, below is a quick table going through how it can be beneficial and why. This isn't comprehensive, but a starting point to get you thinking about what it could be helpful with.
 
-**As always, though, follow your institution and unit's policies before engaging in any use.**
+**As always, though, PLEASE follow your institution and unit's policies before engaging in any use - not all uses listed here will be allowed, and might be breaching academic integrity policies.**
 
 +---------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Use case                                                            | Justification                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +=====================================================================+==========================================================================================================================================================================================================================================================================================================================================================================================================================================================+
 | Explaining difficult theoretical concepts or sections of literature | There is a sweet spot where learning is not too difficult, but also not too easy. If you find the content really difficult, and only have a couple of hours of class time each week, this can be an issue. GenAI can be helpful with explaining concepts in an understandable way. I often use "explain it like I'm ten years old".                                                                                                                      |
 |                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                     | *Note: I would suggest not using an age lower than ten, as once I tried "explain it like I'm five" and it provided explanations in terms of toys. That's fine, but it wasn't helpful.*                                                                                                                                                                                                                                                                   |
+|                                                                     | *Note: I once I tried "explain it like I'm five" and it provided explanations in terms of toys. That's fine, but it wasn't helpful so choose the cut-off well.*                                                                                                                                                                                                                                                                   |
 +---------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Assistance with proofreading for grammatical errors or structure    | Some struggle with grammar, typos, or structuring our arguments. GenAI can be pretty helpful with reviewing sections of work or looking at bullet points / outlines to assess whether your structure is clear.                                                                                                                                                                                                                                           |
 +---------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -264,7 +262,7 @@ Tools are now pretty good at adhering to custom instructions, or whatever you as
 You still need to check all output! Things can go wrong even when you think a tool is good at something, or it performs really well on benchmarking tests. Often, this is due to user error (e.g., being unclear), but sometimes it is because GenAI will do what it thinks is best. Once I asked for help with code, and it generated code for me. I looked through each line and found a line that had the potential to overwrite all of my data if I made a typo. There have also been horror stories of someone using an AI agent, giving it access to their local device and run commands on their behalf, and then the tool just wiping their directory.
 :::
 
-Let's move on to something more interesting - how to actually use GenAI in a way that works for the tool.
+Let's move on to something else - how to actually use GenAI in a way that works for the tool.
 
 # Setting it up for success
 
@@ -288,17 +286,17 @@ Let's try an exercise.
 
 Think of two of your friends, then think of a topic. Adapt the following prompt and input it into a GenAI tool.
 
-> I'm looking for a paper published between the years of 2020-2026. I remember it was written by \[last name\] and \[last name\]. It was on the topic of \[topic\], and I remember it found \[some made up plausible result\]. I think it was called something like, \[made up title\]. Can you find this for me?
+> I'm looking for a paper published between the years of 2020-2026. I remember it was written by \[x\] and \[y\]. It was on the topic of \[topic\], and I remember it found \[some made up plausible result\]. I think it was called something like, \[made up title\]. Can you find this for me?
 
 What did you get? When I tried this prompt, the tool made up an entire study. It used the last names I inputted (who have never co-authored a paper before), used the topic (one that is not in either of their areas of expertise), and the results I provided, and created a summary of something that did not exist. It gave me a fake doi, but explained it so convincingly. Providing fake information to trick the tool is obviously unhelpful, but demonstrates how your prompt can majorly influence the response you get.
 
-At the start of reading, I also mentioned that the following prompt was poorly done:
+At the start, I also mentioned that the following prompt was poorly done:
 
 > Does disruptive sleep lead to cheeky next-day behaviour in dogs?
 
-I received a yes, plus a bunch of sources, but none of those lined up with the question I had. What do you think went wrong?
+I received a yes, plus a bunch of sources, but none of those lined up with the question I had. What do you think went wrong with my prompt?
 
-It is a bit more subtle, but I did not set the tool up for success. In this example, though, it was due to how my question was *phrased*. My question was leading, and whatever coded instruction related to the "I must be helpful at all costs" behaviour seemed to light up. My asking "does x lead to y?" made the tool look for answers that confirmed what I thought. I didn't really give it the clear opportunity to say, "I can't find that information".
+It is a bit more subtle, but I did not set the tool up for success. In this example, though, it was due to how my question was *phrased*. My question was leading, and whatever coded instruction related to the "I must be helpful at all costs" behaviour seemed to light up. Asking "does x lead to y?" made the tool look for answers that confirmed what I thought. I didn't really give it the clear opportunity to say, "I can't find that information".
 
 A much better (but not perfect) prompt would have been:
 
@@ -337,7 +335,7 @@ We're not going to go into all methods of prompting here, as we're going to focu
 ::: {.callout-tip collapse="false"}
 ## Recursive meta prompting
 
-This is my favourite method of prompting and one I often suggest. Don't be scared by the name. Have you ever asked someone for a reference, and they've said "sure, write it and I'll edit and sign it"? Well, you can get a tool to do something similar. This is when you ask GenAI to create a template prompt for you, that you can then edit and reuse, and improve with each pass. For example, you might ask GenAI to create a prompt that will help you understand some theoretical concept. You include your specifications and requirements. Then, you edit the prompt to align with what you want, and provide it to the GenAI to ask for critique of the prompt. Then, you try out the new prompt, and ask for more critique, and so on... When you're happy with the prompt, I'd suggest you paste it into a new chat to avoid issues with it retaining context.
+This is my favourite method of prompting and one I often suggest. Don't be scared by the name. Have you ever asked someone for a reference, and they've said "sure, write it and I'll edit and sign it"? You can get a tool to do something similar. This is when you ask GenAI to create a template prompt for you, that you can then edit and reuse, and improve with each pass. For example, you might ask GenAI to create a prompt that will help you understand some theoretical concept. You include your specifications and requirements. Then, you edit the prompt to align with what you want, and provide it to the GenAI to ask for critique of the prompt. Then, you try out the new prompt, and ask for more critique, and so on... When you're happy with the prompt, I'd suggest you paste it into a new chat to avoid issues with it retaining context.
 :::
 
 I have bombarded you with a lot of information there, but the most common prompt techniques you'll likely find yourself using are: **zero-shot prompting; few-shot prompting; and chain-of-thought prompting**. Each prompt can be used for different purposes, and it depends on how complex your question is. Most people start with zero-shot, evaluate output, and then escalate if needed. While chain-of-thought prompting can reduce the issues we've seen with a tool just blurting out whatever answer it wants, it is still important to note it does not eliminate BLUNTs.
@@ -381,7 +379,7 @@ I need to state that with rapid development, some of these techniques may not be
 ::: {.callout-warning icon="false" appearance="minimal" collapse="false"}
 ## Keep in mind
 
-If you are using GenAI within education or academia, you must always adhere to the restrictions set by your institution and units. There are typically restrictions on the prompts you can use, and how much GenAI can help you with assessments or content. You can still incorporate these techniques, but it is helpful to tell the tool what the restrictions are in order to avoid accidental breaches of policy.
+If you are using GenAI within education or academia, you must always adhere to the restrictions set by your institution and units. There are typically restrictions on the prompts you can use, and how much GenAI can help you with assessments or content. You can still incorporate these techniques if allowed, but it is helpful to tell the tool what the restrictions are in order to avoid accidental breaches of policy.
 :::
 
 ::: {.callout-note collapse="false"}
@@ -407,11 +405,10 @@ There are loads of issues that we can't really get away from if we use GenAI. Co
 ::: {.callout-tip collapse="false"}
 ## Anthropic v OpenAI
 
-Recently, the US government got into a tiff with Anthropic (who developed Claude) as they wanted the company to remove guardrails around autonomous weapons systems, and around mass surveillance. Anthropic told them no (and, as a result, the Pentagon designated Anthropic a supply chain risk), and solidified their position as the 'ethical AI company'. OpenAI (who developed ChatGPT) then jumped in and made a deal with the government to be their supplier, though proposed similar restrictions as Anthropic. It was not really clear why they accepted OpenAI's restrictions, but not Anthropic's. The current proposed explanation is that OpenAI approached this from a legal standpoint, rather than contractual obligations. People began cancelling their ChatGPT subscriptions and moved to Claude as their go-to tool. However, as of 2026, Anthropic's systems are actually still used in military and intelligence operations by contractors. This is not to say that all AI companies are equal. There are some models and companies that behave more 'ethically' than others. The point is, though, that ethical problems are within many companies whether we like it or not.
+Recently (ish), the US government got into a tiff with Anthropic (who developed Claude) as they wanted the company to remove guardrails around autonomous weapons systems, and around mass surveillance. Anthropic told them no (and, as a result, the Pentagon designated Anthropic a supply chain risk), and solidified their position as the 'ethical AI company'. OpenAI (who developed ChatGPT) then jumped in and made a deal with the government to be their supplier, though proposed similar restrictions as Anthropic. It was not really clear why they accepted OpenAI's restrictions, but not Anthropic's. The current proposed explanation is that OpenAI approached this from a legal standpoint, rather than contractual obligations. People began cancelling their ChatGPT subscriptions and moved to Claude as their go-to tool. However, at the time of writing, Anthropic's systems are actually still used in military and intelligence operations by contractors. This is not to say that all AI companies are equal. There are some models and companies that behave more 'ethically' than others. The point is, though, that ethical problems are within many companies whether we like it or not.
 
-*Note 1: About a day after I wrote this, Anthropic returned to the table with the US government to discuss potential terms. For a company, this makes sense - they don't want to be designated as a supply chain risk. For us, as users, it solidifies the point that there are no fully ethical AI companies.*
+*Note: About a day after I wrote this, Anthropic returned to the table with the US government to discuss potential terms. For a company, this makes sense - they don't want to be designated as a supply chain risk. I am sure things will change again, so this is likely out of date by the time you're reading this. However, for us, as users, it solidifies the point that there are no fully ethical AI companies.*
 
-*Note 2: The situation has changed again, one day later. There will be no further updates.*
 :::
 
 ## Copyrighted materials and data privacy
@@ -420,7 +417,7 @@ Imagine you have spent ages and ages writing a poem that means a lot to you. It'
 
 ## Environmental damage
 
-In the early stages of AI development, we saw that tools had problems with counting the number of letter 'R's in the word strawberry (note: this was due to how it processes tokens). We saw an influx of screenshots of users attempting the prompt and showing the funny output they got. However, every time you use GenAI for something kind of useless, you are contributing to environmental damage. It takes a lot of resources to train tools, so the drain on resources are mostly there. However, some estimates suggest that each prompt you write takes up more energy and water resources than a Google search (though quite dependent on the question and model). Given all AI tools undergo training, this is pretty much unavoidable - however, some companies are displaying the energy required to run each model, so you can make a more informed choice about what to use.
+In the early stages of AI development, we saw that tools had problems with counting the number of letter 'R's in the word strawberry (note: this was due to how it processes tokens). We saw an influx of screenshots of users attempting the prompt and showing the funny output they got. However, every time you use GenAI for something kind of useless, you are contributing to environmental damage. It takes a lot of resources to train tools, so the drain on resources are mostly there. However, some estimates suggest that each prompt you write takes up more energy and water resources than a Google search (though quite dependent on the question and model). Given all AI tools undergo training, this is pretty much unavoidable - however, some companies are displaying the energy required to run each model, so you can make a more informed choice about what to use. 
 
 ## Bias and discrimination
 
@@ -433,7 +430,7 @@ A lot of tools do not provide training data, benchmarking data, or the process b
 ::: {.callout-tip collapse="false"}
 ## Keep in mind
 
-The above issues only scrape the surface of ethical issues inherent in GenAI use or corporations. We should also consider how GenAI can act in unsafe or unethical ways (e.g., provide advice on illegal activities, or have conversations that can significantly damage someone's mental health or validate delusions), drift away from hard-coded instructions, or be exploited by user prompts. As students who are likely going to enter the workforce, you probably are worried that a GenAI tool may eventually replace you. Maybe. A GenAI tool could have written everything here in a less weird way, and it could probably do about a quarter of my job. However, this is why it's important to work alongside GenAI and ensure human oversight is prioritised. It would be ideal to outsource the uninteresting stuff to GenAI so we can focus on things that require human critical thinking.
+The above issues only scrape the surface of ethical issues inherent in GenAI use or corporations. We should also consider how GenAI can act in unsafe or unethical ways (e.g., provide advice on illegal activities, or have conversations that can significantly damage someone's mental health or validate delusions), drift away from hard-coded instructions, or be exploited by user prompts. As students who are likely going to enter the workforce, you probably are worried that a GenAI tool may eventually replace you. Maybe. A GenAI tool could have written everything here, and it could probably do about a quarter of my job. However, this is why it's important to work alongside GenAI and ensure human oversight is prioritised. It would be ideal to outsource the uninteresting stuff to GenAI so we can focus on things that require human critical thinking.
 :::
 
 ::: {.callout-warning icon="false" appearance="minimal" collapse="false"}
@@ -446,11 +443,11 @@ Remember we are talking about GenAI here, and there is a difference between AI a
 
 There are a few ways you can try to minimise the impact of use. This is not comprehensive, but a starting point to help you consider how you engage with GenAI tools.
 
--   *Explore various tools*. There are some tools being developed that focus on transparency and accountability, and reproducible science. Some tools make training data and benchmarks available, and some tools are open source. I won't name these here as I am sure they will change, but it is worth looking up. However, if you are using tools as part of your education, the same warning applies - ensure you follow guidelines for the tools you are allowed to use.
+-   *Explore various tools*. There are some tools being developed that focus on transparency and accountability, and reproducible science. Some tools make training data and benchmarks available, and some tools are open source. I won't name these here as I am sure they will change, but it is worth looking up. However, if you are using tools as part of your education, the same warning applies - ensure you follow guidelines for the tools you are allowed to use - some institutions prefer you use enterprise versions they've provided access to, usually to reduce privacy issues.
 -   *Double check output*. You really really do not want to contribute to the perpetuation of stereotypes or bias, nor do you want to learn things that aren't even correct. Ask for sources, then read these yourself.
 -   *Be transparent about your own use*. If your institution and unit allows GenAI use, then it is allowed. You aren't going to get in trouble for using it. However, you might get in trouble if you don't disclose your use. Even if you get away with not disclosing use, think about whether you're okay with that, personally. Not citing use means that you are avoiding accountability for output, and engaging in academic dishonesty. No one wants that.
--   *Adhere to restrictions set by your institution and unit*. Only use GenAI in the ways your subject allows. Yes, you might be able to get away with having a tool generate an entire assessment for you. But again, think about what this means for you. Would you be happy with claiming this work as your own, or would you feel a little guilty that you are submitting work you haven't actually done, and are essentially plagiarising?
--   *Only use GenAI when it is absolutely necessary*. This helps reduce the environmental impact of use. Yes, it's super fun to watch it freak out when you ask for a seahorse emoji. But you can enjoy the screenshots from others without doing it yourself. You can Google simple questions, or use your institution's library databases to search for papers. Think about the consequences each time you want to use the tool, and whether there is a better way to get the help you're after.
+-   *Adhere to restrictions set by your institution and unit*. Only use GenAI in the ways your subject allows. Yes, you might be able to get away with having a tool generate an entire assessment for you, but you probably won't get a really high mark. But again, think about what this means for you. Would you be happy with claiming this work as your own, or would you feel a little guilty that you are submitting work you haven't actually done, and are essentially plagiarising?
+-   *Only use GenAI when it is absolutely necessary*. This helps reduce the environmental impact of use and reduces degradation of your own skills. 1) Yes, it's fun to watch it freak out when you ask for a seahorse emoji. But you can enjoy the screenshots from others without doing it yourself. You can Google simple questions, or use your institution's library databases to search for papers. Think about the consequences each time you want to use the tool, and whether there is a better way to get the help you're after. 2) 'Use it or lose it' is a real thing. If you're not actively learning and practicing skills you have learnt, you will experience a drop in your ability to do things independently. This will cause issues for you later on when you're expected to know things without looking it up.
 
 The point to the above is not to guilt you into not using GenAI, but to clarify why it is important to be an ethical and responsible user.
 
@@ -478,7 +475,7 @@ At some point, you've probably thought, "okay well, GenAI is here to stay, so I 
 
 -   Imagine being asked a question in a meeting, or by a client, and you say, "one sec, I need to ask my AI-friend". You are expected to have a good foundation of knowledge wherever you work.
 
--   We do have calculators in our pockets. But it was not a proud moment for me to ask a supervisor, in a meeting, what 7 + 9 is.
+-   We do have calculators in our pockets. But it was not a proud moment for me to ask a supervisor, in a meeting, what 7 + 9 is. Also, ChatGPT independently saved to its own memory that I have an inability to understand how weighted averages work. 
 
 # Acknowledgement of GenAI use
 
