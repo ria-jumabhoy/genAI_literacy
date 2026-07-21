@@ -17,6 +17,8 @@ editor: visual
 date: today
 ---
 
+If you've found a typo or inaccuracy, please reach out to Ria!
+
 ::: {.callout-note collapse="false"}
 ## Overview and Rationale
 
